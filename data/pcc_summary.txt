@@ -1,0 +1,57 @@
+============================================================
+TOPOLOGICAL CIRCUIT COMPLEXITY - ANALYSIS SUMMARY
+============================================================
+Date: 2025-12-28
+Configuration: N=8 (256 truth table entries)
+
+============================================================
+🏆 TOPOLOGICAL WINNERS (Highest PCC)
+============================================================
+
+1. Threshold_k3:        PCC = 12.3750
+2. Noisy_Threshold_16:  PCC =  8.2188
+3. Noisy_Threshold_47:  PCC =  8.0469
+4. Noisy_Threshold_49:  PCC =  8.0312
+5. Noisy_Threshold_10:  PCC =  8.0156
+
+============================================================
+📉 TOPOLOGICAL LOSERS (Lowest PCC)
+============================================================
+
+1. Noisy_Majority_34:   PCC = 3.3125
+2. Random_8:            PCC = 3.2969
+3. Random_31:           PCC = 3.0625
+4. Random_26:           PCC = 3.0000
+5. Random_25:           PCC = 2.8906
+
+============================================================
+HYPOTHESIS CHECK: Named Functions
+============================================================
+
+| Function       | PCC Score | Interpretation          |
+|----------------|-----------|-------------------------|
+| Threshold_k3   |   12.3750 | HIGH complexity         |
+| Threshold_k4   |    8.0000 | MEDIUM-HIGH complexity  |
+| Parity         |    7.9375 | MEDIUM-HIGH complexity  |
+| Majority       |    3.6250 | LOW complexity          |
+| Threshold_k5   |    3.6250 | LOW complexity          |
+
+============================================================
+STATISTICAL SUMMARY
+============================================================
+
+Random Functions (n=50):
+  Mean PCC = 3.9041 ± 0.4258
+  
+Structured Functions (n=50):
+  Mean PCC = 6.5259 ± 1.5754
+
+CONCLUSION:
+  Structured functions exhibit significantly HIGHER topological
+  complexity (PCC) compared to random functions.
+  
+  Threshold functions with lower k values show the HIGHEST PCC,
+  suggesting that "near-boundary" decision functions create
+  rich topological structure in the On-Set.
+
+============================================================

@@ -1,0 +1,13 @@
+# Topological Circuit Complexity - Dependencies
+# Core TDA libraries
+ripser>=0.6.0          # Fast sparse matrix reduction for persistent homology
+gudhi>=3.8.0           # Higher-dimensional simplicial complex handling
+persim>=0.3.1          # Persistence diagram visualization and distances
+
+# Scientific computing
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Graph visualization
+networkx>=3.0
+matplotlib>=3.7.0      # Required by persim for plotting
