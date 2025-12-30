@@ -1,0 +1,9 @@
+Round 3 Accuracy: 48.33%
+              precision    recall  f1-score   support
+
+      Random       0.44      0.69      0.54        26
+         AES       0.58      0.32      0.42        34
+
+    accuracy                           0.48        60
+   macro avg       0.51      0.51      0.48        60
+weighted avg       0.52      0.48      0.47        60

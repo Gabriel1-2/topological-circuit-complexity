@@ -1,0 +1,3 @@
+label,pcc_h1,pcc_h2,max_life_h1,max_life_h2
+AES S-Box,390.0,564.0,2.0,1.0
+Random Permutation,375.0,531.0,2.0,1.0

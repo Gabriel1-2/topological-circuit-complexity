@@ -1,0 +1,9 @@
+round,type,pcc,max_life
+1,AES,0,0
+1,Random,703.0,1.0
+2,AES,0,0
+2,Random,739.0,1.0
+3,AES,772.0,1.0
+3,Random,699.0,1.0
+4,AES,727.0,1.0
+4,Random,728.0,1.0
