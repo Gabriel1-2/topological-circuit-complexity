@@ -29,6 +29,8 @@ This project investigates whether the **topological complexity** of a boolean fu
 | **Real S&P 500 (2000-2023)** | r=-0.10, p=0.0004 | **PCC predicts volatility 7 days ahead** |
 | **VIX Backtest** | +7.55% edge, 65% hit rate | **Tradeable alpha signal** |
 | **Cross-Asset Topology** | r=-0.23, p<0.0001 | **Real-time crisis detector** |
+| **Edge of Chaos (Rule 110)** | Topo-Gap found | **Computation has distinct shape** |
+| **DNA Topology** | Life (0.03) < Random (0.05) | **Evolution minimizes topology** |
 
 ---
 
