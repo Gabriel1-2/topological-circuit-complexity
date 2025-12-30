@@ -24,6 +24,8 @@ This project investigates whether the **topological complexity** of a boolean fu
 | Adversarial Detection | Clean=0.085 vs Adv=0.165 (p=4.2e-5) | **Topological lie detector works** |
 | Trojan Detection | Local PCC: d=1.71, p=2.8e-13 | **Hidden malware exposed by local topology** |
 | XOR Destruction | 53% topological mass destroyed | Mixing fragments coherent structure |
+| MNIST Topology | PCC drops 16% (20.8 → 17.4) | **Learning simplifies topology** |
+| Market Crash | PCC drops 74% (0.035 → 0.009) | **Crash destroys market structure** |
 
 ---
 
@@ -211,6 +213,32 @@ PCC ≈ K × Sensitivity^1.12
 
 ---
 
+### Phase 7: MNIST Neural Topology (Real-World AI)
+
+**Goal**: Analyze the topological structure of neural representations on MNIST.
+
+| Epoch | Accuracy | PCC | Interpretation |
+|-------|----------|-----|----------------|
+| 0 | 10% | 20.79 | Random Fog (High Complexity) |
+| 10 | 99% | 17.43 | Clean Clusters (Low Complexity) |
+
+**Key Insight**: Learning **reduces topological complexity**. The network simplifies the chaotic input space into orderly, separated digit clusters. Low Topology = High Semantic Order.
+
+---
+
+### Phase 8: Financial Topology (Market Crash)
+
+**Goal**: innovative application to financial markets. Simulate a crash and track topological signals.
+
+| Regime | Condition | Avg PCC | Change |
+|--------|-----------|---------|--------|
+| Normal | Block Diagonal (Sectors) | 0.0351 | - |
+| Crash | Global Panic | 0.0090 | **-74.4%** |
+
+**Key Insight**: Market crashes **destroy topological complexity**. During healthy markets, sectors form a complex high-dimensional structure. During a crash, panic unifies all assets, collapsing the topology into a simple lower-dimensional hypersphere.
+
+---
+
 ## 🚀 Quick Start
 
 ### Installation
@@ -255,7 +283,16 @@ python experiments/analyze_sweep.py
 python experiments/derive_formula.py
 
 # 6. XOR Destruction Verification
+# 6. XOR Destruction Verification
 python experiments/verify_destruction.py
+
+# 7. MNIST Neural Topology
+python experiments/mnist_topology.py
+python experiments/plot_mnist_manifold.py
+
+# 8. Financial Topology (Market Crash)
+python experiments/market_crash_sim.py
+python experiments/plot_market_topology.py
 ```
 
 ---
