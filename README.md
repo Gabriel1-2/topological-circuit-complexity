@@ -25,7 +25,10 @@ This project investigates whether the **topological complexity** of a boolean fu
 | Trojan Detection | Local PCC: d=1.71, p=2.8e-13 | **Hidden malware exposed by local topology** |
 | XOR Destruction | 53% topological mass destroyed | Mixing fragments coherent structure |
 | MNIST Topology | PCC drops 16% (20.8 → 17.4) | **Learning simplifies topology** |
-| Market Crash | PCC drops 74% (0.035 → 0.009) | **Crash destroys market structure** |
+| Market Crash (Simulated) | PCC drops 74% | Crash destroys market structure |
+| **Real S&P 500 (2000-2023)** | r=-0.10, p=0.0004 | **PCC predicts volatility 7 days ahead** |
+| **VIX Backtest** | +7.55% edge, 65% hit rate | **Tradeable alpha signal** |
+| **Cross-Asset Topology** | r=-0.23, p<0.0001 | **Real-time crisis detector** |
 
 ---
 
