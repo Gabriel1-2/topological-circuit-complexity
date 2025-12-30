@@ -31,6 +31,9 @@ This project investigates whether the **topological complexity** of a boolean fu
 | **Cross-Asset Topology** | r=-0.23, p<0.0001 | **Real-time crisis detector** |
 | **Edge of Chaos (Rule 110)** | Topo-Gap found | **Computation has distinct shape** |
 | **DNA Topology** | Life (0.03) < Random (0.05) | **Evolution minimizes topology** |
+| **Institutional Strategy** | Sharpe **1.23** | Professional validation (Transaction Costs) |
+| **Topo-Trend Strategy** | Sharpe **1.40** | **Buy & Hold outperformed by 66% (Risk-Adj)** |
+| **Vol-Targeted Strategy** | MaxDD **-19%** | **Crisis-Proof Portfolio** |
 
 ---
 
@@ -298,7 +301,18 @@ python experiments/plot_mnist_manifold.py
 # 8. Financial Topology (Market Crash)
 python experiments/market_crash_sim.py
 python experiments/plot_market_topology.py
+
+# 9. Institutional Trading Strategies
+python experiments/backtest_pro.py        # Institutional Validation
+python experiments/optimize_signal.py     # Parameter Optimization
+python experiments/backtest_enhanced.py   # Topo-Trend Strategy (Flagship)
+python experiments/backtest_antifragile.py # Antifragile (Long/Short)
+python experiments/backtest_vol_target.py # Volatility Targeting (Safety)
 ```
+
+## 📜 Trader Brief
+
+See [TRADER_BRIEF.md](TRADER_BRIEF.md) for the professional one-sheet explanation of the Topological Alpha Signal.
 
 ---
 
